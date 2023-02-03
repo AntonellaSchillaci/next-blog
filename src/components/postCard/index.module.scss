@@ -1,0 +1,37 @@
+.postCard {
+  border-bottom: 1px solid lightgreen;
+  padding:  10px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  a {
+    text-decoration: none;
+    color: lightgreen;
+    font-size: 18px;
+    font-style: italic;
+
+    &:hover {
+      color: chartreuse;
+      font-weight: bold;
+    }
+  }
+
+  h2 {
+   color: lightgreen;
+  }
+
+  p {
+   text-align: center;
+  }
+
+  img {
+    transition: all 0.5s ease;
+
+    &:hover  {
+      border-radius: 50%; 
+      transform: rotate(360deg);
+    }
+  
+  }
+}

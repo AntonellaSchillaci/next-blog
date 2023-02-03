@@ -1,0 +1,17 @@
+.dPost {
+    padding: 10px;
+    margin: 50px 20px;
+    background-color: rgba(128, 255, 0, 0.158);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        color: lightgreen;
+    }
+
+    p {
+        color: white;
+    }
+}
